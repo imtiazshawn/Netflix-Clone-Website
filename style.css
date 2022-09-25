@@ -1,0 +1,205 @@
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+    --light-color: #f4f4f4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+    color: #fff;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/1.jpg");
+    background-size: cover;
+    height: 105vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    margin-left: 70px;
+    margin-top: 30px; 
+}
+.right{
+    margin-right: 70px;
+    margin-top: 20px; 
+}
+.right button{
+    background: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    color: #fff;
+    flex-direction: column;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+}
+.paragraph h1{
+    font-size: 50px;
+    color: #fff;
+}
+.paragraph h3{
+    font-size: 25px;
+    color: #fff;
+    margin: 15px;
+    font-weight: normal;
+}
+.paragraph h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    margin: 10px;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.searchbar input{
+    width: 500px;
+    height: 60px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2px 0 0 2px;
+}
+.searchbar button{
+    width: 150px;
+    height: 60px;
+    background: var(--primary-color);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.searchbar button:hover{
+    background: #f40713;
+}
+hr{
+    background: rgb(40, 38, 38);
+    height: 8px;
+    border: none;
+}
+.secTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+    width: 100%;
+}
+.secTwo h1{
+    font-size: 50px;
+}
+.secTwo p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.secThree{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+    width: 100%;
+}
+.secThree h1{
+    font-size: 50px;
+}
+.secThree p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.secFour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+}
+.secFour #leftFour{
+    margin-right: 600px;
+}
+.secFour h1{
+    font-size: 50px;
+}
+.secFour p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    flex-direction: column;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(161, 153, 153);
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+}
+.topLine{
+    margin-right: 750px;
+    margin-bottom: 20px;
+}
+.lines a{
+    margin-top: 10px;
+}
+.lines .firstLine{
+    display: flex;
+    flex-direction: column;
+}
+.lines .secondLine{
+    display: flex;
+    flex-direction: column;
+}
+.lines .thirdLine{
+    display: flex;
+    flex-direction: column;
+}
+.lines .fourthLine{
+    display: flex;
+    flex-direction: column;
+}
+.par{
+    margin: 30px;
+}
+footer p{
+    margin-right: 870px;
+    color: rgb(161, 153, 153);
+}
